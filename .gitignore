@@ -15,8 +15,7 @@ env/
 # Dataset
 data/
 
-# Trained model
-*.pkl
+
 
 # Streamlit
 .streamlit/secrets.toml
