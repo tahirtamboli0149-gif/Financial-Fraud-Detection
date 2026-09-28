@@ -231,29 +231,7 @@ if st.button("🔍 Analyze Transaction", use_container_width=True):
         )
 
 
-# Project Information
 
-with st.expander("ℹ️ About this project"):
-
-    st.write(
-        """
-        This application uses a Random Forest machine learning model
-        to classify financial transactions as Normal or Fraud.
-
-        The model uses three transaction features:
-
-        • Transaction Type  
-        • Transaction Amount  
-        • Sender's Old Balance  
-
-        The application also performs a separate balance validation
-        rule to identify transactions where the outgoing amount exceeds
-        the sender's recorded balance.
-
-        The machine learning prediction and the rule-based warning are
-        independent components.
-        """
-    )
 
 
 
